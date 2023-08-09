@@ -38,10 +38,12 @@ const config: Config = {
                 "5xl": "2.5rem",
                 "6xl": "3.25rem",
                 "7xl": "4.5rem",
+                "sideby": "6rem",
                 "8xl": "7.25rem",
                 "9xl": "9.25rem",
             },
             maxWidth: {
+                contentinner: "1150px",
                 big: "1920px",
             },
             backgroundImage: {

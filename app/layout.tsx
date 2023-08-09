@@ -14,13 +14,12 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en">
+        <html lang="en" style={{scrollBehavior:'smooth'}}>
             <Head>
                 <link
                     rel="stylesheet"
                     href="https://use.typekit.net/oxs3wpg.css"
                 />
-                
             </Head>
             <body className="font-sans">{children}</body>
         </html>
