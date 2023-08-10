@@ -50,7 +50,7 @@ export default function Home() {
                         <Section id="challenge">
                             <SectionInner>
                                 <SideBySide heading="Take the Sub-MOA Spoonie Challenge!">
-                                <Pg>The Sub-MOA Spoonie Challenge is a lot like traditional benchrest target challenges; Print out this <TLink link="/SubMOASpoonieChallenge-PRINT.pdf" target="_blank">target sheet</TLink>, post it up (50 yards for 22LR, 100 yards for longer range calibers), and follow the instructions at the top!</Pg>
+                                <Pg>The Sub-MOA Spoonie Challenge <em>(SPOONIES ONLY!)</em> is a lot like traditional benchrest target challenges; Print out this <TLink link="/SubMOASpoonieChallenge-PRINT.pdf" target="_blank">target sheet</TLink>, post it up (50 yards for 22LR, 100 yards for longer range calibers), and follow the instructions at the top!</Pg>
 
                                 <InnerHead>Get the Sub-MOA Spoonie Morale Patch</InnerHead>
 
@@ -84,11 +84,11 @@ export default function Home() {
                                 <SideBySide heading="Other Stuff">
                                     <Pg>Spoonies know better than most that a good advocacy group can make a real difference, and I want to recognize a few that you might be interested to learn more about.</Pg>
 
-                                    <Pg><TLink link="https://www.holdmyguns.org/" target="_blank">Hold My Guns</TLink>: A way to have your firearms secured temporarily while on vacation or during a crisis.</Pg>
+                                    <Pg><TLink link="https://www.holdmyguns.org/" target="_blank">Hold My Guns</TLink>: A way to have your firearms secured temporarily while on vacation or during a crisis.. No questions asked.</Pg>
 
                                     <Pg><TLink link="https://socialistra.org/" target="_blank">Socialist Rifle Association</TLink>: A leftist counterpart to the NRA, the SRA is a smaller, more grass-roots organization.</Pg>
 
-                                    <Pg><TLink link="https://psjbgc.org/" target="_blank">John Brown Gun Club</TLink>: Another leftist gun rights organization advocating for racial equality and social justice.</Pg>
+                                    <Pg><TLink link="https://psjbgc.org/" target="_blank">John Brown Gun Club</TLink>: Another decentralized leftist gun rights organization advocating for racial equality and social justice; they've been known to provide security for drag shows and more!</Pg>
                                 </SideBySide>
                             </SectionInner>
                         </Section>
