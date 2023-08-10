@@ -27,7 +27,7 @@ export default function Home() {
                     <div className="absolute top-0 w-full h-full">
                         <img src="/submoaspoonieBGfaded.png" alt="" className="z-10 sticky top-0 w-full"/>
                     </div>
-                    <div className="z-20">
+                    <div className="z-20 relative">
                         <Section id="what">
                             <SectionInner>
                                 <SideBySide heading="What's a Sub-MOA Spoonie?">
