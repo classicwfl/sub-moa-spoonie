@@ -21,7 +21,7 @@ function NavLink({ link, linkText }: Props) {
 
 export default function Hero() {
     return (
-        <div className="min-h-screen flex items-center justify-center">
+        <div id="#top" className="min-h-screen flex items-center justify-center">
             <div className="p-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 grid-rows-1 max-w-[1800px] m-auto">
                 <div className="aspect-square w-full border-white border-2 rounded-full p-1 lg:p-2">
                     <img

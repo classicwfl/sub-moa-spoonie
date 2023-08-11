@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "@/components/hero";
 import Section from "@/components/section";
 import SectionInner from "@/components/sectioninner";
@@ -7,13 +6,15 @@ import Pg from "@/components/pg";
 import InnerHead from "@/components/innerhead";
 import TLink from "@/components/tlink";
 import Button from "@/components/button";
+import BackToTop from "@/components/backtotop";
 
 export default function Home() {
     return (
         <>
             <Hero />
+            
             <div className="max-w-big m-auto mt-30">
-                
+            
                 <Section id="intro">
                     <h1 className="font-bighead uppercase text-center italic">
                         <span className="text-3xl md:text-6xl block leading-neg">Become A</span>
@@ -24,7 +25,8 @@ export default function Home() {
                 </Section>
                 
                 <div className="max-w-[1700px] m-auto relative">
-                    <div className="absolute top-0 w-full h-full">
+                    <BackToTop />
+                    <div className="absolute top-0 w-full h-full z-10 pointer-events-none">
                         <img src="/submoaspoonieBGfaded.png" alt="" className="z-10 sticky top-0 w-full"/>
                     </div>
                     <div className="z-20 relative">
