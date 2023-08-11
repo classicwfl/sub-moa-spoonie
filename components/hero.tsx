@@ -11,7 +11,7 @@ function NavLink({ link, linkText }: Props) {
         >
             <span
                 className="font-bighead uppercase text-center italic text-[5.8vw] 
-            sm:text-[5vw] md:text-[3.5vw] lg:text-[2.5vw] heromax:text-6xl leading-neg"
+            sm:text-[5vw] md:text-[3.5vw] lg:text-[2.5vw] heromax:text-5xl leading-neg"
             >
                 {linkText}
             </span>
@@ -22,7 +22,7 @@ function NavLink({ link, linkText }: Props) {
 export default function Hero() {
     return (
         <div id="#top" className="min-h-screen flex items-center justify-center">
-            <div className="p-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 grid-rows-1 max-w-[1800px] m-auto">
+            <div className="p-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 grid-rows-1 max-w-big m-auto">
                 <div className="aspect-square w-full border-white border-2 rounded-full p-1 lg:p-2">
                     <img
                         src="/SubMOASpoonieLogoNoBorder.png"

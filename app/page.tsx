@@ -7,10 +7,25 @@ import InnerHead from "@/components/innerhead";
 import TLink from "@/components/tlink";
 import Button from "@/components/button";
 import BackToTop from "@/components/backtotop";
+import Script from "next/script";
+
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
 
 export default function Home() {
     return (
         <>
+            <Script
+                src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+                strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){window.dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${GA_MEASUREMENT_ID}');
+                `}
+            </Script>
             <Hero />
             
             <div className="max-w-big m-auto mt-30">
@@ -24,7 +39,7 @@ export default function Home() {
                     <span className="text-3xl lg:text-6xl font-bighead uppercase leading-neg text-center block italic">Precision, Pain & Pride</span>
                 </Section>
                 
-                <div className="max-w-[1700px] m-auto relative">
+                <div className="max-w-big m-auto relative">
                     <BackToTop />
                     <div className="absolute top-0 w-full h-full z-10 pointer-events-none">
                         <img src="/submoaspoonieBGfaded.png" alt="" className="z-10 sticky top-0 w-full"/>
@@ -33,19 +48,19 @@ export default function Home() {
                         <Section id="what">
                             <SectionInner>
                                 <SideBySide heading="What's a Sub-MOA Spoonie?">
-                                    <Pg><span className="text-3xl"><strong>MOA:</strong> <em>A unit of measurement in precision shooting, 1 MOA (Minute of Angle) equals just over 1 inch (1.047") at 100 yards.</em></span></Pg>
+                                    <Pg><span className="text-3xl"><strong>MOA:</strong> <em>A unit of measurement in precision shooting, 1 MOA (Minute of Angle) equals just over 1 inch (1.047&quot;) at 100 yards.</em></span></Pg>
 
                                     <Pg><span className="text-3xl"><strong>Spoonie:</strong> <em>A person who suffers from chronic illness.</em></span></Pg>
 
                                     <Pg><span className="text-3xl"><strong>Sub-MOA Spoonie:</strong> <em>A spoonie who can shoot groups less than 1 MOA.</em></span></Pg>
 
-                                    <Pg>Look, being a spoonie is hard. You don't get to celebrate many accomplishments like a normie would, and having the same successes as a normie? Yeah, that's not always gonna happen.</Pg>
+                                    <Pg>Look, being a spoonie is hard. You don&apos;t get to celebrate many accomplishments like a normie would, and having the same successes as a normie? Yeah, that&apos;s not always gonna happen.</Pg>
 
                                     <Pg>Well, one success I have is I am a pretty decent shot with a 22 rifle, which is why I came up with the Sub-MOA Spoonie badge.</Pg>
 
-                                    <Pg>If you're also a Sub-MOA Spoonie, then this badge is for you, too.</Pg>
+                                    <Pg>If you&apos;re also a Sub-MOA Spoonie, then this badge is for you, too.</Pg>
 
-                                    <Pg>Celebrate your wins, my fellow spoonies, because we've earned them.</Pg>
+                                    <Pg>Celebrate your wins, my fellow spoonies, because we&apos;ve earned them.</Pg>
                                 </SideBySide>
                             </SectionInner>
                         </Section>
@@ -56,13 +71,13 @@ export default function Home() {
 
                                 <InnerHead>Get the Sub-MOA Spoonie Morale Patch</InnerHead>
 
-                                <Pg>Once you've completed 5 sub-MOA shots in a row, all you need to do to get on the list for a morale patch is to send a photo of your target sheet to <TLink link="mailto:submoaspoonie@gmail.com">submoaspoonie@gmail.com</TLink> - I'll confirm the groups, and once the morale patches are ready I'll reach out to collect payment ($10) and your shipping address, and your patch will be on the way (US folks only for the time being, sorry)!</Pg>
+                                <Pg>Once you&apos;ve completed 5 sub-MOA shots in a row, all you need to do to get on the list for a morale patch is to send a photo of your target sheet to <TLink link="mailto:submoaspoonie@gmail.com">submoaspoonie@gmail.com</TLink> - I&apos;ll confirm the groups, and once the morale patches are ready I&apos;ll reach out to collect payment ($10) and your shipping address, and your patch will be on the way (US folks only for the time being, sorry)!</Pg>
 
-                                <Pg>If you don't want a morale patch, you can get the Sub-MOA Spoonie badge on a variety of other merch. The Sub-MOA Spoonie morale patch, however, is unique and available in limited quantities exclusively to those who complete the target challenge!</Pg>
+                                <Pg>If you don&apos;t want a morale patch, you can get the Sub-MOA Spoonie badge on a variety of other merch. The Sub-MOA Spoonie morale patch, however, is unique and available in limited quantities exclusively to those who complete the target challenge!</Pg>
 
                                 <InnerHead>SHARE YOUR SPOONIE STORY</InnerHead>
 
-                                <Pg>Sometimes it helps other spoonies to hear what their fellow spoonies live with. When you send in your groups, let me know if you're interested in being interviewed (via email, so you can respond on your own time). We'll talk about your illness, your struggles, and how you became a Sub-MOA Spoonie!</Pg>
+                                <Pg>Sometimes it helps other spoonies to hear what their fellow spoonies live with. When you send in your groups, let me know if you&apos;re interested in being interviewed (via email, so you can respond on your own time). We&apos;ll talk about your illness, your struggles, and how you became a Sub-MOA Spoonie!</Pg>
 
                                 <Pg>You can read the Sub-MOA Spoonie stories over at <TLink link="https://painpropaganda.com"  target="_blank">Pain Propaganda</TLink>.</Pg>
                                 </SideBySide>
@@ -71,7 +86,7 @@ export default function Home() {
                         <Section id="merch">
                             <SectionInner>
                                 <SideBySide heading="Sub-MOA Spoonie Merch">
-                                    <Pg>Don't want a morale patch, or want to get even more Sub-MOA Spoonie stuff?</Pg>
+                                    <Pg>Don&apos;t want a morale patch, or want to get even more Sub-MOA Spoonie stuff?</Pg>
 
                                     <Pg><strong>No problem!</strong></Pg>
 
@@ -90,7 +105,7 @@ export default function Home() {
 
                                     <Pg><TLink link="https://socialistra.org/" target="_blank">Socialist Rifle Association</TLink>: A leftist counterpart to the NRA, the SRA is a smaller, more grass-roots organization.</Pg>
 
-                                    <Pg><TLink link="https://psjbgc.org/" target="_blank">John Brown Gun Club</TLink>: Another decentralized leftist gun rights organization advocating for racial equality and social justice; they've been known to provide security for drag shows and more!</Pg>
+                                    <Pg><TLink link="https://psjbgc.org/" target="_blank">John Brown Gun Club</TLink>: Another decentralized leftist gun rights organization advocating for racial equality and social justice; they&apos;ve been known to provide security for drag shows and more!</Pg>
                                 </SideBySide>
                             </SectionInner>
                         </Section>

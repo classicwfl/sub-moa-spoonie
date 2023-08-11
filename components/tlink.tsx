@@ -3,7 +3,7 @@ import Link from "next/link"
 type Props = {
     children: React.ReactNode,
     link: string,
-    target: string,
+    target?: string,
 }
 
 export default function TLink({children, link, target="_self"}: Props ) {

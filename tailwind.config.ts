@@ -44,7 +44,7 @@ const config: Config = {
             },
             maxWidth: {
                 contentinner: "1150px",
-                big: "1920px",
+                big: "1600px",
             },
             backgroundImage: {
                 inactive:
