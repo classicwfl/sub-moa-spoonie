@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+So, here we are. I haven't released anything really "public" in a long time, so let's share the source for this simple single page spun up in Next.JS, shall we?
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,11 +14,13 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
 ## Learn More
+
+Sub-MOA Spoonies is, well.. Just go to [https://submoaspoonies.com](https://submoaspoonies.com) to learn what it is.
+
+It's ultimately a project for advocacy and encouragement of a niche of a niche.. People who live with chronic illness (like me) who also enjoy precision rifle shooting (like me), but it's also a reminder that we can - and do - compete with the "normies" at times!
+
+As far as tech goes, this is just a simple Next.js 13 site with TypeScript and Tailwinds (love me some Tailwinds now). TypeScript is honestly a bit extra for this, but I'm used to working in it so I figured why change anything.
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -27,8 +29,6 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Notes on Deployment:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I just build it static on local and upload it to my hosting, so keep that in mind here. I'm not using Vercel because that's just.. More than what I need, and I already have good enough hosting for stuff like this.
