@@ -87,7 +87,9 @@ export default function Hero() {
                         className="aspect-square w-full rounded-full"
                     />
                 </div>
-                <div className="aspect-square w-full border-white border-2 rounded-full"></div>
+                <div className="aspect-square w-full border-white border-2 rounded-full">
+                    <NavLink link="#faq" linkText="Sub-MOA Spoonie FAQ" />
+                </div>
                 <div className="aspect-square w-full border-white border-t-2 rounded-full block sm:hidden"></div>
             </div>
         </div>

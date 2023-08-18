@@ -8,6 +8,7 @@ import TLink from "@/components/tlink";
 import Button from "@/components/button";
 import BackToTop from "@/components/backtotop";
 import Script from "next/script";
+import FAQ from "@/components/faq";
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
 
@@ -93,6 +94,13 @@ export default function Home() {
                                     <Pg>The Sub-MOA Spoonie logo is available on clothes, pins, mugs and more!</Pg>
 
                                     <Button link="https://www.redbubble.com/shop/ap/149883808" target="_blank">Get Sub-MOA Spoonie Merch</Button>
+                                </SideBySide>
+                            </SectionInner>
+                        </Section>
+                        <Section id="faq">
+                            <SectionInner>
+                                <SideBySide heading="FAQ">
+                                    <FAQ />
                                 </SideBySide>
                             </SectionInner>
                         </Section>

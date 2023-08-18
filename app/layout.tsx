@@ -6,6 +6,7 @@ import Head from "next/head";
 export const metadata: Metadata = {
     title: "Sub-MOA Spoonie: Precision, Pain & Pride",
     description: "Learn more about what it means to be a Sub-MOA Spoonie, get Sub-MOA Spoonie Merch, and more.",
+    metadataBase: new URL('https://submoaspoonie.com'),
     icons: {
         icon: '/smoa-icon-16.png',
         shortcut: '/smoa-icon-512.png',
