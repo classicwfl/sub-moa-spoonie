@@ -109,6 +109,8 @@ export default function Home() {
                                 <SideBySide heading="Other Stuff">
                                     <Pg>Spoonies know better than most that a good advocacy group can make a real difference, and I want to recognize a few that you might be interested to learn more about.</Pg>
 
+                                    <Pg><TLink link="https://besmartforkids.org/" target="_blank">Be SMART</TLink>: Securely store your guns, folks.. Whether you&apos;ve got kids or not!</Pg>
+
                                     <Pg><TLink link="https://www.holdmyguns.org/" target="_blank">Hold My Guns</TLink>: A way to have your firearms secured temporarily while on vacation or during a crisis.. No questions asked.</Pg>
 
                                     <Pg><TLink link="https://socialistra.org/" target="_blank">Socialist Rifle Association</TLink>: A leftist counterpart to the NRA, the SRA is a smaller, more grass-roots organization.</Pg>
