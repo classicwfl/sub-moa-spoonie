@@ -31,15 +31,16 @@ export default function FAQ() {
                 <Pg>First off: Unlike PRS Benchest targets, you count the shot if the CENTER OF THE IMPACT is within the circle; it&apos;s perfectly OK to break the line!</Pg>
                 <Pg>More specifically, you&apos;ll note that if you measure it, the inside portion of the outer circle is 1 MOA wide, so as long as the center of your impact is within the appropriate circle for your distance, you can count it!</Pg>
             </FAQItem>
-            <FAQItem heading="When will the patches be ready?">
-                <Pg>It depends on interest and embroidery costs when it comes time to order. I won&apos;t order them until I get at least 10 folks interested in the patches; that won&apos;t be enough to cover the entire costs, but it will be enough to justify the first run and ship them!</Pg>
+            <FAQItem heading="Why a challenge coin?">
+                <Pg>I originally planned on morale patches, but the cost of creating them at a quality level I like was just a bit too high for something so niche. Instead, I ended up getting my hands on a 3d printer, and began designing the challenge coin. This has the added benefit of being able to be produced on-demand as needed!</Pg>
             </FAQItem>
-            <FAQItem heading="What are the details on the patches?">
-                <Pg>The patches will be a 2.5 inch circle with hook & loop backing; I chose this size because it should be usable in a variety of locations (hats, bags, shoulder patches, etc), and is reasonable to get embroidered. These will be fully-embroidered, too, and not printed or PVC.</Pg>
+            <FAQItem heading="What are the details on the coins?">
+                <Pg>The challenge coins are black and white, printed using PLA (non-toxic and environmentally concious material); They are 2-sided, with a unique design on the top based on the Sub-MOA Spoonie logo, and the words &quot;Sub-MOA Spoonie&quot; inset on the back. They also feature a keychain loop so you can carry it with you wherever you go.</Pg>
+                <Pg>Just FYI, while PLA is a great material, you should avoid subjecting it to extreme heat or direct sunlight for extended periods, as it can deform.</Pg>
             </FAQItem>
             <FAQItem heading="What is in place to prevent folks from cheating?">
                 <Pg>A whole &apos;lotta nuthin&apos;.</Pg>
-                <Pg>Seriously though, if you&apos;re a spoonie you most likely want to feel a legit sense of accomplishment, rather than a false one, so I don&apos;t expect many folks to cheat here. This is a pretty small niche, so the likelihood of there being a run on patches going to a bunch of cheaters is pretty slim.</Pg>
+                <Pg>Seriously though, if you&apos;re a spoonie you most likely want to feel a legit sense of accomplishment, rather than a false one, so I don&apos;t expect many folks to cheat here. This is a pretty small niche, so the likelihood of there being a run on coins going to a bunch of cheaters is pretty slim.</Pg>
             </FAQItem>
         </div>
     )

@@ -70,11 +70,11 @@ export default function Home() {
                                 <SideBySide heading="Take the Sub-MOA Spoonie Challenge!">
                                 <Pg>The Sub-MOA Spoonie Challenge <em>(SPOONIES ONLY!)</em> is a lot like traditional benchrest target challenges; Print out this <TLink link="/SubMOASpoonieChallenge-PRINT.pdf" target="_blank">target sheet</TLink>, post it up (50 yards for 22LR, 100 yards for longer range calibers), and follow the instructions at the top!</Pg>
 
-                                <InnerHead>Get the Sub-MOA Spoonie Morale Patch</InnerHead>
+                                <InnerHead>Get the Sub-MOA Spoonie Challenge Coin</InnerHead>
 
-                                <Pg>Once you&apos;ve completed 5 sub-MOA shots in a row, all you need to do to get on the list for a morale patch is to send a photo of your target sheet to <TLink link="mailto:submoaspoonie@gmail.com">submoaspoonie@gmail.com</TLink> - I&apos;ll confirm the groups, and once the morale patches are ready I&apos;ll reach out to collect payment ($10) and your shipping address, and your patch will be on the way (US folks only for the time being, sorry)!</Pg>
+                                <Pg>Once you&apos;ve completed 5 sub-MOA shots in a row, all you need to do to get a challenge coin is to send a photo of your target sheet to <TLink link="mailto:submoaspoonie@gmail.com">submoaspoonie@gmail.com</TLink> - I&apos;ll confirm the groups and reach out to collect payment ($10) and your shipping address. Shortly afterwards your challenge coin will be on the way (US folks only for the time being, sorry)!</Pg>
 
-                                <Pg>If you don&apos;t want a morale patch, you can get the Sub-MOA Spoonie badge on a variety of other merch. The Sub-MOA Spoonie morale patch, however, is unique and available in limited quantities exclusively to those who complete the target challenge!</Pg>
+                                <Pg>If you don&apos;t want a challenge coin, you can get the Sub-MOA Spoonie badge on a variety of other merch. The Sub-MOA Spoonie challenge coin, however, is unique and available in limited quantities exclusively to those who complete the target challenge!</Pg>
 
                                 <InnerHead>SHARE YOUR SPOONIE STORY</InnerHead>
 
@@ -87,7 +87,7 @@ export default function Home() {
                         <Section id="merch">
                             <SectionInner>
                                 <SideBySide heading="Sub-MOA Spoonie Merch">
-                                    <Pg>Don&apos;t want a morale patch, or want to get even more Sub-MOA Spoonie stuff?</Pg>
+                                    <Pg>Don&apos;t want a challenge coin, or want to get even more Sub-MOA Spoonie stuff?</Pg>
 
                                     <Pg><strong>No problem!</strong></Pg>
 
