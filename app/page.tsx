@@ -122,7 +122,7 @@ export default function Home() {
                         <Section id="footer">
                             <SectionInner>
                                 <div className="text-center">
-                                    <Pg>All content &copy; 2023 Will Leffert unless otherwise noted, All Rights Reserved.</Pg>
+                                    <Pg>All content &copy; 2024 Will Leffert unless otherwise noted, All Rights Reserved.</Pg>
                                 </div>
                             </SectionInner>
                         </Section>
