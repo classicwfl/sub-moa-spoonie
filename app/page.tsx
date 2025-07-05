@@ -91,9 +91,9 @@ export default function Home() {
 
                                     <Pg><strong>No problem!</strong></Pg>
 
-                                    <Pg>The Sub-MOA Spoonie logo is available on clothes, pins, mugs and more!</Pg>
+                                    <Pg>You can get more Sub-MOA Spoonie stuff over at my shop!</Pg>
 
-                                    <Button link="https://www.redbubble.com/shop/ap/149883808" target="_blank">Get Sub-MOA Spoonie Merch</Button>
+                                    <Button link="https://www.etsy.com/shop/PainPropaganda?section_id=54684937" target="_blank">Get Sub-MOA Spoonie Merch</Button>
                                 </SideBySide>
                             </SectionInner>
                         </Section>
@@ -122,7 +122,7 @@ export default function Home() {
                         <Section id="footer">
                             <SectionInner>
                                 <div className="text-center">
-                                    <Pg>All content &copy; 2024 Will Leffert unless otherwise noted, All Rights Reserved.</Pg>
+                                    <Pg>All content &copy; 2025 Will Leffert unless otherwise noted, All Rights Reserved.</Pg>
                                 </div>
                             </SectionInner>
                         </Section>
